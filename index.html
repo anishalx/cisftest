@@ -22,6 +22,8 @@
     background: #2563eb; color: #fff; text-decoration: none; font-weight: 600;
   }
   a:hover { background: #1d4ed8; }
+  a.alt { display: block; width: fit-content; margin: .75rem auto 0; background: #0f766e; }
+  a.alt:hover { background: #115e59; }
   small { display: block; margin-top: 1rem; color: #888; }
   @media (prefers-color-scheme: dark) {
     body { background: #16181d; }
@@ -32,10 +34,11 @@
 </head>
 <body>
 <main>
-  <h1>test.zip</h1>
-  <p>75.8 KB · ZIP archive</p>
-  <a href="test.zip" download>Download</a>
-  <small>Click to save the file.</small>
+  <h1>Day 1 lab downloads</h1>
+  <p>Harbor Credit Union: Analyst Edition</p>
+  <a href="test.zip" download>Download test.zip</a>
+  <a class="alt" href="Harbor-Analyst-Lab-Solving-Guide.docx" download>Solving guide (.docx)</a>
+  <small>Click to save a file.</small>
 </main>
 </body>
 </html>
